@@ -27,8 +27,6 @@ COPY --from=builder /app/dist ./dist
 
 CMD [ "node","dist/main.js"]
 
-
-
 #docker build -t yjd7/docker-graphql:v1.0.1 .
 
 #docker login -u yjd7 -p dckr_pat_Pvqz4j7F5NJ4Ur-GZUhqI8MUYVM
